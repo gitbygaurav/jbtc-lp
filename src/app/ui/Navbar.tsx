@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
     };
 
     return (
-        <nav className="w-full max-w-[1440px] mx-auto bg-white relative">
+        <nav className="w-full max-w-[1920px] mx-auto bg-white relative">
             {/* Desktop Navbar */}
             <div className="flex items-center justify-between px-8 py-4">
                 <img loading="lazy" src="JBTC.png" alt="logo" className="h-8" />
