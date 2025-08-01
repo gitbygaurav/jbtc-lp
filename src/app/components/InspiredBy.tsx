@@ -38,7 +38,7 @@ const InspiredBy:React.FC = () => {
                     <img className="w-full" loading="lazy" src="/inspired-by/dex-wallet.png" alt="dex-wallet" />
                 </div>
             </div>
-            <div className="flex items-center justify-center space-x-8 mt-14">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 mt-4 md:mt-14">
                 <button className="bg-blue-500 text-white px-8 py-3 rounded-xl">Join Presale Now</button>
                 <button className="border border-[#CFDCE5] rounded-xl px-8 py-3">Join Presale Now</button>
                 <button className="border border-[#CFDCE5] rounded-xl px-8 py-3">Join Presale Now</button>
