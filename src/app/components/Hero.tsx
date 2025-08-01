@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
           <h2 className="text-3xl md:text-6xl font-semibold mt-2">
             You Missed BTC, Don’t Miss on
           </h2>
-          <p className="text-[50px] md:text-[100px] font-bold mb-8">Junior BTC</p>
+          <p className="text-[50px] md:text-[100px] font-bold mb-12">Junior BTC</p>
         </div>
       </div>
     </div>
