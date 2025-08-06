@@ -1,4 +1,5 @@
 import Comparison from "./components/Comparison";
+import DailyRewards from "./components/DailyRewards";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
 import InspiredBy from "./components/InspiredBy";
@@ -12,6 +13,7 @@ export default function Home() {
       <Comparison />
       <Features />
       <Tokenomics />
+      <DailyRewards />
     </div>
   );
 }

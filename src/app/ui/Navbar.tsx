@@ -10,21 +10,21 @@ const Navbar: React.FC = () => {
     };
 
     return (
-        <nav className="w-full max-w-[1440px] mx-auto bg-white relative">
+        <nav className="w-full bg-[#2D87F1] text-white">
             {/* Desktop Navbar */}
-            <div className="flex items-center justify-between px-8 py-4">
-                <img loading="lazy" src="JBTC.png" alt="logo" className="h-8" />
+            <div className="max-w-[1440px] mx-auto flex items-center justify-between px-8 py-4 relative">
+                <img loading="lazy" src="logo.png" alt="logo" className="h-8" />
                 
                 {/* Desktop Menu */}
-                <div className="hidden md:flex items-center justify-center space-x-12">
-                    <a href="#" className="text-black hover:text-gray-700 transition-colors">Home</a>
-                    <a href="#" className="text-black hover:text-gray-700 transition-colors">About</a>
-                    <a href="#" className="text-black hover:text-gray-700 transition-colors">Services</a>
-                    <a href="#" className="text-black hover:text-gray-700 transition-colors">Contact</a>
+                <div className="hidden md:flex items-center justify-center space-x-12 text-base font-bold">
+                    <a href="#" className="text-white transition-colors">Home</a>
+                    <a href="#" className="text-white transition-colors">About</a>
+                    <a href="#" className="text-white transition-colors">Services</a>
+                    <a href="#" className="text-white transition-colors">Contact</a>
                 </div>
 
                 {/* Desktop Connect Wallet Button */}
-                <button className="hidden md:block bg-black text-white px-4 py-2 rounded-xl hover:bg-gray-800 transition-colors">
+                <button className="hidden md:block bg-white text-black px-4 py-2 rounded-xl hover:bg-gray-800 transition-colors">
                     Connect Wallet
                 </button>
 
