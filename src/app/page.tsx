@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <div className="">
       <Hero />
-      {/* <InspiredBy />
-      <Comparison />
+      <InspiredBy />
+      {/* <Comparison />
       <Features />
       <Tokenomics /> */}
       {/* <DailyRewards /> */}
