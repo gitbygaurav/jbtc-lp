@@ -12,8 +12,8 @@ const Navbar: React.FC = () => {
     return (
         <nav className="w-full bg-[#2D87F1] text-white">
             {/* Desktop Navbar */}
-            <div className="max-w-[1440px] mx-auto flex items-center justify-between px-8 py-4 relative">
-                <img loading="lazy" src="logo.png" alt="logo" className="h-8" />
+            <div className="max-w-[1440px] mx-auto flex items-center justify-between px-2 md:px-8 py-4 relative">
+                <img loading="lazy" src="logo.png" alt="logo" className="h-4 md:h-8" />
                 
                 {/* Desktop Menu */}
                 <div className="hidden md:flex items-center justify-center space-x-12 text-base font-bold">
