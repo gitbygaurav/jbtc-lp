@@ -11,8 +11,8 @@ export default function Home() {
       <Hero />
       <InspiredBy />
       <Comparison />
-      {/* <Features />
-      <Tokenomics /> */}
+      <Features />
+      {/* <Tokenomics /> */}
       {/* <DailyRewards /> */}
     </div>
   );
