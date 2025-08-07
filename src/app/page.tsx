@@ -10,8 +10,8 @@ export default function Home() {
     <div className="">
       <Hero />
       <InspiredBy />
-      {/* <Comparison />
-      <Features />
+      <Comparison />
+      {/* <Features />
       <Tokenomics /> */}
       {/* <DailyRewards /> */}
     </div>
