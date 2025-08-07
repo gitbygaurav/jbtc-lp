@@ -19,3 +19,11 @@ body {
   color: var(--foreground);
   font-family: "Plus Jakarta Sans", sans-serif;
 }
+
+.tokenomics-gradient {
+  background-image: linear-gradient(to right top, #1c1c1c, #353537, #4f5154, #6a6e72, #858d92);
+}
+
+.rounded-shadow {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}

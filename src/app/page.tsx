@@ -12,7 +12,7 @@ export default function Home() {
       <InspiredBy />
       <Comparison />
       <Features />
-      {/* <Tokenomics /> */}
+      <Tokenomics />
       {/* <DailyRewards /> */}
     </div>
   );
