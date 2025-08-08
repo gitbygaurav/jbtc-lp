@@ -13,7 +13,7 @@ export default function Home() {
       <Comparison />
       <Features />
       <Tokenomics />
-      {/* <DailyRewards /> */}
+      <DailyRewards />
     </div>
   );
 }
