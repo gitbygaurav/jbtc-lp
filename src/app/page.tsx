@@ -1,6 +1,7 @@
 import Comparison from "./components/Comparison";
 import DailyRewards from "./components/DailyRewards";
 import Features from "./components/Features";
+import GrowthProjection from "./components/GrowthProjection";
 import Hero from "./components/Hero";
 import InspiredBy from "./components/InspiredBy";
 import LiveClaimFeed from "./components/LiveClaimFeed";
@@ -18,6 +19,7 @@ export default function Home() {
       <DailyRewards />
       <ReferralSystem />
       <LiveClaimFeed />
+      <GrowthProjection />
     </div>
   );
 }
