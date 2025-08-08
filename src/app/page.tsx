@@ -3,6 +3,7 @@ import DailyRewards from "./components/DailyRewards";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
 import InspiredBy from "./components/InspiredBy";
+import LiveClaimFeed from "./components/LiveClaimFeed";
 import ReferralSystem from "./components/ReferralSystem";
 import Tokenomics from "./components/Tokenomics";
 
@@ -16,6 +17,7 @@ export default function Home() {
       <Tokenomics />
       <DailyRewards />
       <ReferralSystem />
+      <LiveClaimFeed />
     </div>
   );
 }
