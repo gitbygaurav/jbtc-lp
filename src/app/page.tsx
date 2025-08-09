@@ -4,6 +4,7 @@ import Features from "./components/Features";
 import GrowthProjection from "./components/GrowthProjection";
 import Hero from "./components/Hero";
 import InspiredBy from "./components/InspiredBy";
+import JbtcRewards from "./components/JbtcRewards";
 import LiveClaimFeed from "./components/LiveClaimFeed";
 import ReferralSystem from "./components/ReferralSystem";
 import Roadmap from "./components/Roadmap";
@@ -22,6 +23,7 @@ export default function Home() {
       <LiveClaimFeed />
       <GrowthProjection />
       <Roadmap />
+      <JbtcRewards />
     </div>
   );
 }

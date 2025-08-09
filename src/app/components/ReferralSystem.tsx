@@ -155,7 +155,7 @@ const ReferralSystem: React.FC = () => {
                     <p className="text-[#000000] font-satoshi-bold uppercase">1.0 JBTC (10%)</p>
                 </div>
             </div>
-            <div className="grid grid-cols-4">
+            <div className="grid grid-cols-4 border-t border-[#CFDCE5]">
                 <div className="px-6 py-4 border-r border-[#CFDCE5]">
                     <p className="text-[#596E7F] font-satoshi-medium uppercase">2,000 JBTC</p>
                 </div>
@@ -170,7 +170,7 @@ const ReferralSystem: React.FC = () => {
                     <p className="text-[#000000] font-satoshi-bold uppercase">0.1 JBTC  (1%)</p>
                 </div>
             </div>
-            <div className="grid grid-cols-4">
+            <div className="grid grid-cols-4 border-t border-[#CFDCE5]">
                 <div className="px-6 py-4 border-r border-[#CFDCE5]">
                     <p className="text-[#596E7F] font-satoshi-medium uppercase">2,000 JBTC</p>
                 </div>
