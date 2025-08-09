@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import InspiredBy from "./components/InspiredBy";
 import LiveClaimFeed from "./components/LiveClaimFeed";
 import ReferralSystem from "./components/ReferralSystem";
+import Roadmap from "./components/Roadmap";
 import Tokenomics from "./components/Tokenomics";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <ReferralSystem />
       <LiveClaimFeed />
       <GrowthProjection />
+      <Roadmap />
     </div>
   );
 }
