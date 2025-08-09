@@ -2,7 +2,7 @@ const ReferralSystem: React.FC = () => {
   return (
     <div className="w-full bg-[#1C1C1C]">
       <div className="w-full max-w-[1440px] mx-auto text-white py-6 md:py-14 px-2 md:px-8">
-        <h2 className="text-2xl md:text-[70px] text-center font-elza-bold font-bold tracking-tight md:leading-20 uppercase">
+        <h2 className="text-2xl md:text-[70px] text-center font-elza-bold-condensed font-bold tracking-tight md:leading-20 uppercase">
           Referral System
         </h2>
         <p className="text-[#CFDCE5] text-base md:text-xl text-center font-satoshi-medium mt-4">
@@ -13,7 +13,7 @@ const ReferralSystem: React.FC = () => {
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-10 mt-10 md:mt-12">
           <div className="bg-white rounded-shadow p-4 md:p-6 rounded-xl">
-            <h4 className="text-[#1C1C1C] text-[22px] md:text-[28px] font-elza-bold uppercase">
+            <h4 className="text-[#1C1C1C] text-[22px] md:text-[28px] font-elza-bold-condensed uppercase">
               How Referrals Work
             </h4>
             <div className="mt-4">
@@ -25,7 +25,7 @@ const ReferralSystem: React.FC = () => {
                   alt="check-circle"
                 />
                 <div>
-                  <h5 className="text-[#020817] text-[18px] md:text-[22px] font-elza-bold">
+                  <h5 className="text-[#020817] text-[18px] md:text-[22px] font-elza-bold-condensed">
                     Qualifying Condition
                   </h5>
                   <p className="text-[#47566B] text-sm md:text-base font-satoshi-regular">
@@ -42,7 +42,7 @@ const ReferralSystem: React.FC = () => {
                   alt="check-circle"
                 />
                 <div>
-                  <h5 className="text-[#020817] text-[18px] md:text-[22px] font-elza-bold">
+                  <h5 className="text-[#020817] text-[18px] md:text-[22px] font-elza-bold-condensed">
                     Reward Source
                   </h5>
                   <p className="text-[#47566B] text-sm md:text-base font-satoshi-regular">
@@ -58,7 +58,7 @@ const ReferralSystem: React.FC = () => {
                   alt="check-circle"
                 />
                 <div>
-                  <h5 className="text-[#020817] text-[18px] md:text-[22px] font-elza-bold">
+                  <h5 className="text-[#020817] text-[18px] md:text-[22px] font-elza-bold-condensed">
                     Non-Qualifying
                   </h5>
                   <p className="text-[#47566B] text-sm md:text-base font-satoshi-regular">
@@ -69,7 +69,7 @@ const ReferralSystem: React.FC = () => {
             </div>
           </div>
           <div className="bg-white rounded-shadow p-4 md:p-6 rounded-xl mt-5 md:mt-0">
-            <h4 className="text-[#1C1C1C] text-[28px] font-elza-bold uppercase">
+            <h4 className="text-[#1C1C1C] text-[28px] font-elza-bold-condensed uppercase">
               Earning Potential
             </h4>
             <div className="mt-4">
@@ -81,7 +81,7 @@ const ReferralSystem: React.FC = () => {
                   alt="check-circle"
                 />
                 <div>
-                  <h5 className="text-[#020817] text-[18px] md:text-[22px] font-elza-bold">
+                  <h5 className="text-[#020817] text-[18px] md:text-[22px] font-elza-bold-condensed">
                     Full Qualification (10%)
                   </h5>
                   <p className="text-[#47566B] text-sm md:text-base font-satoshi-regular">
@@ -97,7 +97,7 @@ const ReferralSystem: React.FC = () => {
                   alt="check-circle"
                 />
                 <div>
-                  <h5 className="text-[#020817] text-[18px] md:text-[22px] font-elza-bold">
+                  <h5 className="text-[#020817] text-[18px] md:text-[22px] font-elza-bold-condensed">
                     Partial Qualification (1%)
                   </h5>
                   <p className="text-[#47566B] text-sm md:text-base font-satoshi-regular">
@@ -113,7 +113,7 @@ const ReferralSystem: React.FC = () => {
                   alt="check-circle"
                 />
                 <div>
-                  <h5 className="text-[#020817] text-[18px] md:text-[22px] font-elza-bold">
+                  <h5 className="text-[#020817] text-[18px] md:text-[22px] font-elza-bold-condensed">
                     No Qualification (0%)
                   </h5>
                   <p className="text-[#47566B] text-sm md:text-base font-satoshi-regular">
@@ -192,7 +192,7 @@ const ReferralSystem: React.FC = () => {
             <div className="rounded-t-xl p-4 border-b border-[#CFDCE5]">
                 <div className="flex flex-col">
                     <p className="text-[#596E7F] text-sm font-satoshi-bold">Your Holdings</p>
-                    <p className="text-[#1C1C1C] text-[28px] font-elza-bold">2,000 JBTC</p>
+                    <p className="text-[#1C1C1C] text-[28px] font-elza-bold-condensed">2,000 JBTC</p>
                 </div>
                 <div className="flex justify-between mt-4">
                     <div className="flex flex-col">
@@ -212,7 +212,7 @@ const ReferralSystem: React.FC = () => {
             <div className="rounded-t-xl p-4 border-b border-[#CFDCE5]">
                 <div className="flex flex-col">
                     <p className="text-[#596E7F] text-sm font-satoshi-bold">Your Holdings</p>
-                    <p className="text-[#1C1C1C] text-[28px] font-elza-bold">2,000 JBTC</p>
+                    <p className="text-[#1C1C1C] text-[28px] font-elza-bold-condensed">2,000 JBTC</p>
                 </div>
                 <div className="flex justify-between mt-4">
                     <div className="flex flex-col">
@@ -232,7 +232,7 @@ const ReferralSystem: React.FC = () => {
             <div className="rounded-t-xl p-4">
                 <div className="flex flex-col">
                     <p className="text-[#596E7F] text-sm font-satoshi-bold">Your Holdings</p>
-                    <p className="text-[#1C1C1C] text-[28px] font-elza-bold">5,000 JBTC</p>
+                    <p className="text-[#1C1C1C] text-[28px] font-elza-bold-condensed">5,000 JBTC</p>
                 </div>
                 <div className="flex justify-between mt-4">
                     <div className="flex flex-col">

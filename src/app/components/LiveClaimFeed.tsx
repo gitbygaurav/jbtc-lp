@@ -45,7 +45,7 @@ const LiveClaimFeed: React.FC = () => {
     ]
   return (
     <div className="w-full max-w-[1440px] mx-auto py-6 md:py-14 px-2 md:px-8">
-      <h2 className="text-[#1C1C1C] text-2xl md:text-[70px] text-center font-elza-bold font-bold tracking-tight md:leading-20 uppercase">
+      <h2 className="text-[#1C1C1C] text-2xl md:text-[70px] text-center font-elza-bold-condensed font-bold tracking-tight md:leading-20 uppercase">
         Live Claim Feed
       </h2>
       <p className="text-[#333333] text-base md:text-xl text-center font-satoshi-medium mt-4">
@@ -82,7 +82,7 @@ const LiveClaimFeed: React.FC = () => {
       {/* Live Claim Feed */}
       <div className="bg-white rounded-shadow py-4 md:py-6 rounded-xl border border-[#CFDCE5] mt-12">
         <div className="flex gap-1 items-center px-4 md:px-6">
-          <h5 className="text-[#020817] text-[22px] md:text-[28px] font-elza-bold">
+          <h5 className="text-[#020817] text-[22px] md:text-[28px] font-elza-bold-condensed">
             Real-Time Activity
           </h5>
           <img

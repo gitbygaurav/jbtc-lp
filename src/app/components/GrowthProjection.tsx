@@ -1,7 +1,7 @@
 const GrowthProjection: React.FC = () => {
   return (
     <div className="w-full max-w-[1440px] mx-auto py-6 md:py-8 px-2 md:px-8">
-      <h2 className="text-[#1C1C1C] text-2xl md:text-[70px] text-center font-elza-bold font-bold tracking-tight md:leading-20 uppercase">
+      <h2 className="text-[#1C1C1C] text-2xl md:text-[70px] text-center font-elza-bold-condensed font-bold tracking-tight md:leading-20 uppercase">
         Growth Projection
       </h2>
       <p className="text-[#333333] text-base md:text-xl text-center font-satoshi-medium mt-4">
@@ -9,7 +9,7 @@ const GrowthProjection: React.FC = () => {
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
         <div className="bg-white rounded-shadow rounded-xl p-4 md:p-6">
-          <h4 className="text-[#1C1C1C] text-[22px] md:text-[28px] font-elza-bold uppercase">
+          <h4 className="text-[#1C1C1C] text-[22px] md:text-[28px] font-elza-bold-condensed uppercase">
             Earnings Calculator
           </h4>
           <p className="text-[#596E7F] text-sm font-satoshi-bold mt-4">
@@ -37,7 +37,7 @@ const GrowthProjection: React.FC = () => {
               <p className="text-[#596E7F] text-xs font-satoshi-medium">
                 Daily Claim (0.5%)
               </p>
-              <p className="text-[#D99000] text-[28px] font-elza-bold mt-2">
+              <p className="text-[#D99000] text-[28px] font-elza-bold-condensed mt-2">
                 5.0 JBTC
               </p>
             </div>
@@ -45,7 +45,7 @@ const GrowthProjection: React.FC = () => {
               <p className="text-[#596E7F] text-xs font-satoshi-medium">
                 30 Days
               </p>
-              <p className="text-[#3CB43A] text-[28px] font-elza-bold mt-2">
+              <p className="text-[#3CB43A] text-[28px] font-elza-bold-condensed mt-2">
                 150 JBTC
               </p>
             </div>
@@ -53,7 +53,7 @@ const GrowthProjection: React.FC = () => {
               <p className="text-[#596E7F] text-xs font-satoshi-medium">
                 1 Year (365 days)
               </p>
-              <p className="text-[#0024D9] text-[28px] font-elza-bold mt-2">
+              <p className="text-[#0024D9] text-[28px] font-elza-bold-condensed mt-2">
                 1825 JBTC
               </p>
             </div>
@@ -63,12 +63,12 @@ const GrowthProjection: React.FC = () => {
           </button>
         </div>
         <div className="bg-white rounded-shadow rounded-xl p-4 md:p-6">
-          <h4 className="text-[#1C1C1C] text-[22px] md:text-[28px] font-elza-bold uppercase">
+          <h4 className="text-[#1C1C1C] text-[22px] md:text-[28px] font-elza-bold-condensed uppercase">
             Why Early Adoption Matters
           </h4>
           <div className="mt-4">
             <div>
-              <h6 className="text-[#1C1C1C] text-[24px] font-elza-bold uppercase">
+              <h6 className="text-[#1C1C1C] text-[24px] font-elza-bold-condensed uppercase">
                 Scarcity Increases
               </h6>
               <p className="text-[#596E7F] font-satoshi-medium mt-1">
@@ -76,7 +76,7 @@ const GrowthProjection: React.FC = () => {
               </p>
             </div>
             <div className="mt-4">
-              <h6 className="text-[#1C1C1C] text-[24px] font-elza-bold uppercase">
+              <h6 className="text-[#1C1C1C] text-[24px] font-elza-bold-condensed uppercase">
                 Early Advantage
               </h6>
               <p className="text-[#596E7F] font-satoshi-medium mt-1">
@@ -84,7 +84,7 @@ const GrowthProjection: React.FC = () => {
               </p>
             </div>
             <div className="mt-4">
-              <h6 className="text-[#1C1C1C] text-[24px] font-elza-bold uppercase">
+              <h6 className="text-[#1C1C1C] text-[24px] font-elza-bold-condensed uppercase">
                 Compound Growth
               </h6>
               <p className="text-[#596E7F] font-satoshi-medium mt-1">
@@ -106,7 +106,7 @@ const GrowthProjection: React.FC = () => {
       </div>
       {/* projection desktop table */}
       <div className="hidden md:block bg-white rounded-shadow rounded-xl pt-4 md:pt-6 mt-6">
-        <h4 className="text-[#1C1C1C] text-[22px] md:text-[28px] text-center font-elza-bold uppercase">
+        <h4 className="text-[#1C1C1C] text-[22px] md:text-[28px] text-center font-elza-bold-condensed uppercase">
           ESTIMATED Projections
         </h4>
         <div className="mt-4">
@@ -224,14 +224,14 @@ const GrowthProjection: React.FC = () => {
         </div>
       </div>
         {/* projection mobile table */}
-        <h4 className="block md:hidden text-[#1C1C1C] text-[22px] md:text-[28px] text-center font-elza-bold uppercase mt-8">
+        <h4 className="block md:hidden text-[#1C1C1C] text-[22px] md:text-[28px] text-center font-elza-bold-condensed uppercase mt-8">
           ESTIMATED Projections
         </h4>
         <div className="block md:hidden bg-white rounded-shadow rounded-xl mt-4">
             <div className="rounded-t-xl p-4 border-b border-[#CFDCE5]">
                 <div className="flex flex-col">
                     <p className="text-[#596E7F] text-sm font-satoshi-bold">Your Holdings</p>
-                    <p className="text-[#1C1C1C] text-[28px] font-elza-bold">1,000 JBTC</p>
+                    <p className="text-[#1C1C1C] text-[28px] font-elza-bold-condensed">1,000 JBTC</p>
                 </div>
                 <div className="flex justify-between mt-4">
                     <div className="flex flex-col">
@@ -251,7 +251,7 @@ const GrowthProjection: React.FC = () => {
             <div className="rounded-t-xl p-4 border-b border-[#CFDCE5]">
                 <div className="flex flex-col">
                     <p className="text-[#596E7F] text-sm font-satoshi-bold">Your Holdings</p>
-                    <p className="text-[#1C1C1C] text-[28px] font-elza-bold">1,500 JBTC</p>
+                    <p className="text-[#1C1C1C] text-[28px] font-elza-bold-condensed">1,500 JBTC</p>
                 </div>
                 <div className="flex justify-between mt-4">
                     <div className="flex flex-col">
@@ -271,7 +271,7 @@ const GrowthProjection: React.FC = () => {
             <div className="rounded-t-xl border-b border-[#CFDCE5] p-4">
                 <div className="flex flex-col">
                     <p className="text-[#596E7F] text-sm font-satoshi-bold">Your Holdings</p>
-                    <p className="text-[#1C1C1C] text-[28px] font-elza-bold">5,000 JBTC</p>
+                    <p className="text-[#1C1C1C] text-[28px] font-elza-bold-condensed">5,000 JBTC</p>
                 </div>
                 <div className="flex justify-between mt-4">
                     <div className="flex flex-col">
@@ -291,7 +291,7 @@ const GrowthProjection: React.FC = () => {
             <div className="rounded-t-xl p-4">
                 <div className="flex flex-col">
                     <p className="text-[#596E7F] text-sm font-satoshi-bold">Your Holdings</p>
-                    <p className="text-[#1C1C1C] text-[28px] font-elza-bold">5,000 JBTC</p>
+                    <p className="text-[#1C1C1C] text-[28px] font-elza-bold-condensed">5,000 JBTC</p>
                 </div>
                 <div className="flex justify-between mt-4">
                     <div className="flex flex-col">
