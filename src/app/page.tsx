@@ -1,3 +1,4 @@
+import About from "./components/About";
 import Comparison from "./components/Comparison";
 import DailyRewards from "./components/DailyRewards";
 import Faq from "./components/Faq";
@@ -26,6 +27,7 @@ export default function Home() {
       <Roadmap />
       <JbtcRewards />
       <Faq />
+      <About />
     </div>
   );
 }
