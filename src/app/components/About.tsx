@@ -31,8 +31,8 @@ const About: React.FC = () => {
             <h4 className="text-white text-[28px] md:text-[54px] text-center md:text-start font-elza-bold-condensed uppercase">Still have questions?</h4>
             <p className="text-[#CCEAFF] text-lg text-center md:text-start font-satoshi-regular">Join our community for real-time support and updates</p>
             <div className="flex justify-center md:justify-start gap-4 mt-4">
-                <button className="bg-[#2D87F1] text-white font-satoshi-bold py-2 px-8 rounded-lg uppercase">Community</button>
-                <button className="bg-white text-[#002540] font-satoshi-bold py-2 px-12 rounded-lg uppercase">Support</button>
+                <button className="bg-[#2D87F1] text-white font-satoshi-bold py-2 px-4 md:px-8 rounded-lg uppercase">Community</button>
+                <button className="bg-white text-[#002540] font-satoshi-bold py-2 px-6 md:px-12 rounded-lg uppercase">Support</button>
             </div>
         </div>
         <img className="hidden md:block rounded-r-xl" loading="lazy" src="/about/coin.png" alt="coin" />
