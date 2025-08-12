@@ -1,7 +1,7 @@
 const DailyRewards: React.FC = () => {
     return (
         <div className="w-full max-w-[1440px] mx-auto px-2 md:px-8">
-            <h2 className="text-2xl md:text-[70px] text-center font-elza-bold-condensed font-bold tracking-tight md:leading-20 uppercase">How to Earn Daily Rewards</h2>
+            <h2 className="text-[50px] md:text-[70px] leading-[64px] md:leading-[70px] text-center font-elza-bold-condensed font-bold tracking-[-2%] uppercase">How to Earn Daily Rewards</h2>
             <p className="text-[#333333] text-base md:text-xl text-center font-satoshi-medium ">Simple steps to start earning passive income with JBTC</p>
             <div className="w-full grid grid-cols-1 md:grid-cols-5 md:gap-5 my-8">
                 <div className="w-full col-span-3 grid grid-cols-1 md:grid-cols-3 gap-5">

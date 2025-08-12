@@ -2,7 +2,7 @@ const Roadmap: React.FC = () => {
   return (
     <div className="w-full bg-[#1C1C1C]">
       <div className="w-full max-w-[1440px] mx-auto text-white py-6 md:py-14 px-2 md:px-8">
-        <h2 className="text-2xl md:text-[70px] text-center font-elza-bold-condensed font-bold tracking-tight md:leading-20 font-stretch-condensed uppercase">
+        <h2 className="text-2xl md:text-[70px] leading-[24px] md:leading-[70px] text-center font-elza-bold-condensed font-bold tracking-[-2.2%] font-stretch-condensed uppercase">
           Roadmap
         </h2>
         {/* desktop */}

@@ -32,13 +32,13 @@ const Navbar: React.FC = () => {
         </div>
 
         {/* Desktop Connect Wallet Button */}
-        <button className="hidden md:block bg-white text-black px-4 py-2 rounded-xl hover:bg-gray-800 transition-colors">
+        <button className="hidden md:block bg-white text-black px-4 py-2 rounded-xl hover:bg-gray-100 hover:text-black transition-colors">
           Connect Wallet
         </button>
 
         {/* Mobile Hamburger Button */}
-        <div className="flex items-center space-x-3">
-          <button className="block md:hidden bg-white text-black px-4 py-2 rounded-xl hover:bg-gray-800 transition-colors">
+        <div className="flex md:hidden items-center space-x-3">
+          <button className="block md:hidden bg-white text-black px-4 py-2 rounded-xl hover:bg-gray-100 hover:text-black transition-colors">
             Connect Wallet
           </button>
           <button
@@ -127,7 +127,7 @@ const Navbar: React.FC = () => {
 
           {/* Mobile Connect Wallet Button */}
           <button
-            className="w-full flex gap-2 items-center justify-center bg-white text-[#1C1C1C] font-satoshi-medium px-6 py-2 rounded-xl mt-8 hover:bg-gray-800 transition-colors "
+            className="w-full flex gap-2 items-center justify-center bg-white text-[#1C1C1C] font-satoshi-medium px-6 py-2 rounded-xl mt-8 hover:bg-gray-100 hover:text-[#1C1C1C] transition-colors"
             onClick={toggleMenu}
           >
             <img loading="lazy" src="/navbar/Wallet.png" alt="wallet-icon" />

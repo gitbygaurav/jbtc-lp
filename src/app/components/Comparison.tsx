@@ -1,7 +1,7 @@
 const Comparison: React.FC= () => {
     return(
         <div className="w-full max-w-[1440px] mx-auto py-6 md:py-10 px-2 md:px-8">
-            <h2 className="text-4xl md:text-[86px] font-elza-bold-condensed font-bold text-center tracking-tight mt-4 md:mt-6">
+            <h2 className="text-[50px] md:text-[86px] leading-[64px] md:leading-[86px] font-elza-bold-condensed font-bold text-center tracking-[-2.2%] mt-4 md:mt-6">
                 JBTC vs BTC COMPARISON
             </h2>
             <p className="text-[#333333] text-base md:text-xl text-center font-satoshi-medium mt-2">See why Junior Bitcoin is the evolution of holding</p>

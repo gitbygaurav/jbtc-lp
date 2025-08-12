@@ -2,7 +2,7 @@ const InspiredBy: React.FC = () => {
   return (
     <div className="w-full bg-[#1C1C1C] text-white">
       <div className="w-full max-w-[1440px] mx-auto py-6 md:py-16 px-2 md:px-8">
-        <h2 className="text-3xl md:text-[80px] font-elza-bold-condensed font-bold text-center uppercase tracking-tighter mt-6">
+        <h2 className="text-[50px] md:text-[80px] leading-[50px] md:leading-[80px] font-elza-bold-condensed font-bold text-center uppercase tracking-[0%] md:tracking-[-2.2%] mt-6">
           Inspired by Bitcoin. <br />
           Powered by Proof of Holding
         </h2>
@@ -12,12 +12,12 @@ const InspiredBy: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
           <div className="flex flex-col justify-between gap-4 md:gap-6">
             <div className="h-full bg-[#2D87F1] text-white px-6 py-10 rounded-xl">
-              <p className="text-3xl md:text-5xl font-elza-bold-condensed font-bold uppercase md:leading-14 mb-6 md:mb-0">
+              <p className="text-[48px] md:text-5xl font-elza-bold-condensed font-bold uppercase leading-[100%] md:leading-14 mb-6 md:mb-0">
                 No mining, No staking, Just hold & earn
               </p>
             </div>
             <div className="bg-white text-[#1C1C1C] pt-10 rounded-xl">
-              <p className="text-3xl md:text-[42px] font-elza-bold-condensed font-bold text-center md:text-start uppercase tracking-tight leading-14 pl-0 md:pl-6">
+              <p className="text-[48px] md:text-[42px] font-elza-bold-condensed font-bold text-center md:text-start uppercase tracking-[0%] md:tracking-tight leading-[100%] md:leading-14 pl-0 md:pl-6">
                 Fixed 21M Supply, inspired by BTC
               </p>
               <img
@@ -28,10 +28,10 @@ const InspiredBy: React.FC = () => {
             </div>
           </div>
           <div className="bg-white text-[#1C1C1C] rounded-xl px-6 py-5">
-            <h2 className="text-[#2D87F1] text-[120px] md:text-[200px] font-elza-bold-condensed font-bold text-center tracking-tight mx-auto">
+            <h2 className="text-[#2D87F1] text-[220px] md:text-[200px] font-elza-bold-condensed font-bold text-center tracking-[0%] md:tracking-tight mx-auto">
               PoH
             </h2>
-            <p className="text-[25px] md:text-[38px] text-center font-elza-bold-condensed font-bold uppercase tracking-tight md:leading-14 md:mt-14">
+            <p className="text-[48px] md:text-[38px] text-center font-elza-bold-condensed font-bold uppercase tracking-[0%] md:tracking-tight leading-[100%] md:leading-14 md:mt-14">
               Will get rewarded as you hold in wallet
             </p>
             <p className="text-[#596E7F] font-medium text-center mt-2">
@@ -40,12 +40,12 @@ const InspiredBy: React.FC = () => {
           </div>
           <div className="flex flex-col justify-between gap-4 md:gap-6">
             <div className="bg-white text-[#1C1C1C] pl-6 pr-5 pt-10 pb-16 rounded-xl">
-              <h2 className="text-3xl md:text-[42px] font-elza-bold-condensed font-bold uppercase md:leading-14 mb-4">
+              <h2 className="text-[48px] md:text-[42px] font-elza-bold-condensed font-bold uppercase tracking-[0%] leading-[100%] md:leading-14 mb-4">
                 Strong potential for high returns
               </h2>
             </div>
             <div className="bg-white px-6 py-5 rounded-xl">
-              <h2 className="text-black text-3xl md:text-[38px] font-elza-bold-condensed  font-bold uppercase tracking-tight md:leading-14">
+              <h2 className="text-black text-[48px] md:text-[38px] font-elza-bold-condensed  font-bold uppercase tracking-[0%] md:tracking-tight leading-[100%] md:leading-14">
                 FULLY DEX Wallet Compatible
               </h2>
               <div className="w-full flex justify-between self-end items-center">
